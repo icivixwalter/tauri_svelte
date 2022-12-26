@@ -1,6 +1,6 @@
 #![cfg_attr(
-all(not(debug_assertions), target_os = "windows"),
-windows_subsystem = "windows"
+    all(not(debug_assertions), target_os = "windows"),
+    windows_subsystem = "windows"
 )]
 
 mod access;
@@ -13,7 +13,6 @@ fn greet() -> String {
     println!("SONO IN RUST QUI");
     format!("Hello! You've been greeted from Rust!")
 }
-
 
 #[tauri::command]
 fn connettiaccess() -> Vec<String> {
