@@ -1,4 +1,13 @@
-# This repo is no longer maintained. Consider using `npm init vite` and selecting the `svelte` option or — if you want a full-fledged app framework and don't mind using pre-1.0 software — use [SvelteKit](https://kit.svelte.dev), the official application framework for Svelte.
+# PER PARTIRE CON L'APPLICAZIONE
+COMANDO_TAURI: Utilizzare il comando nel terminal
+    
+    npm run tauri dev
+        
+ Questo attiva il Tauri e il server e poi tutta l'applicazione
+
+
+
+# Svelte
 
 ---
 
